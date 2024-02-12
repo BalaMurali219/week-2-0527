@@ -1,0 +1,15 @@
+#include <iostream>
+void checkEvenOrOdd(int num) {
+    if (num % 2 == 0) {
+        std::cout << num << " is even." << std::endl;
+    } else {
+        std::cout << num << " is odd." << std::endl;
+    }
+}
+int main() {
+    int number;
+    std::cout << "Enter a number: ";
+    std::cin >> number;
+    checkEvenOrOdd(number);
+    return 0;
+}
